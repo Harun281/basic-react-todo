@@ -1,0 +1,31 @@
+/*.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 2%;
+}*/
+table{
+    width: 100%;
+}
+.list button{
+    margin-right: 2%;
+    border-radius: 50%;
+    border: none;
+    background-color: inherit;
+    outline: none;
+}
+.list button:hover{
+    background-color: rgb(180, 180, 39);
+}
+.action{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.displayNone{
+    display: none;
+}
+.update{
+    display: flex;
+    justify-content: space-between;
+}
